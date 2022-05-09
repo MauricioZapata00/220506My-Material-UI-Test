@@ -1,4 +1,5 @@
 import React from "react";
+import FirstRow from "./components/FirstRow";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 	return (
 		<div>
 			<Navbar />
+			<FirstRow />
 		</div>
 
 	);
